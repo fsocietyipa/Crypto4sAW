@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bebas-Regular.ttf">
+            <string>BebasRegular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Bitcoin Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="BitcoinController" customModule="CryptoAW_Extension">
+                    <items>
+                        <label width="155" height="45" alignment="center" text="Bitcoin price" textAlignment="center" id="Ydc-cj-q5J">
+                            <fontDescription key="font" name="BebasRegular" family="Bebas" pointSize="25"/>
+                        </label>
+                        <label width="155" height="60" alignment="left" text="loading..." textAlignment="center" id="jXW-4w-6Mk">
+                            <fontDescription key="font" name="BebasRegular" family="Bebas" pointSize="20"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="3Qj-n4-53m">
+                        <items>
+                            <menuItem title="Refresh" image="refresh" id="zyz-xh-dzt">
+                                <connections>
+                                    <action selector="refresh" destination="AgC-eL-Hgc" id="dwy-n6-el8"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="bitcoinPrice" destination="jXW-4w-6Mk" id="O3u-w6-VL4"/>
+                        <segue destination="mrw-e0-bL2" kind="relationship" relationship="nextPage" id="Xnt-oJ-VFg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219.69230769230771" y="344.79487179487182"/>
+        </scene>
+        <!--Ethereum Controller-->
+        <scene sceneID="TKP-k3-R6z">
+            <objects>
+                <controller id="mrw-e0-bL2" customClass="EthereumController" customModule="CryptoAW_Extension">
+                    <items>
+                        <label width="155" height="45" alignment="center" text="Ethereum Price" textAlignment="center" id="dg1-ah-FnT">
+                            <fontDescription key="font" name="BebasRegular" family="Bebas" pointSize="25"/>
+                        </label>
+                        <label width="155" height="60" alignment="left" text="loading..." textAlignment="center" id="CHR-iV-owy">
+                            <fontDescription key="font" name="BebasRegular" family="Bebas" pointSize="20"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="eof-Ap-D3u">
+                        <items>
+                            <menuItem title="Refresh" image="refresh" id="1Am-le-JSg">
+                                <connections>
+                                    <action selector="refresh" destination="mrw-e0-bL2" id="fvi-Ld-AjR"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="ethereumPrice" destination="CHR-iV-owy" id="bIt-XK-GNO"/>
+                        <segue destination="jnb-Pf-pGu" kind="relationship" relationship="nextPage" id="eLm-Jf-T3f"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468.15384615384619" y="343.92307692307696"/>
+        </scene>
+        <!--Bitcoin Cash Controller-->
+        <scene sceneID="8LI-nR-aey">
+            <objects>
+                <controller id="jnb-Pf-pGu" customClass="BitcoinCashController" customModule="CryptoAW_Extension">
+                    <items>
+                        <label width="155" height="45" alignment="center" text="Bitcoin Cash Price" textAlignment="center" minimumScaleFactor="0.5" id="shc-ZR-bAP">
+                            <fontDescription key="font" name="BebasRegular" family="Bebas" pointSize="25"/>
+                        </label>
+                        <label width="155" height="60" alignment="left" text="loading..." textAlignment="center" id="GXE-Oc-YGT">
+                            <fontDescription key="font" name="BebasRegular" family="Bebas" pointSize="20"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="27q-zu-9Bl">
+                        <items>
+                            <menuItem title="Refresh" image="refresh" id="FFk-m8-Yqk">
+                                <connections>
+                                    <action selector="refresh" destination="jnb-Pf-pGu" id="Zqt-U5-O3s"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="bitcoinCashPrice" destination="GXE-Oc-YGT" id="ILU-g5-scv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="721" y="350"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="CryptoAW" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

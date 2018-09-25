@@ -7,13 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66ECAB188AABF2F0A6C5BA8B /* Pods_CryptoWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96067DACF026D30D6867A9E1 /* Pods_CryptoWidget.framework */; };
+		7B3273545D114AB1AEB61EB3 /* Pods_CryptoAW_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC8BC29FD6ABE2E25ADDD30 /* Pods_CryptoAW_Extension.framework */; };
 		8E2406E720A48B950096A3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2406E620A48B950096A3D5 /* AppDelegate.swift */; };
 		8E2406E920A48B950096A3D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2406E820A48B950096A3D5 /* ViewController.swift */; };
 		8E2406EC20A48B950096A3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2406EA20A48B950096A3D5 /* Main.storyboard */; };
 		8E2406EE20A48B960096A3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2406ED20A48B960096A3D5 /* Assets.xcassets */; };
 		8E2406F120A48B960096A3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2406EF20A48B960096A3D5 /* LaunchScreen.storyboard */; };
-		8E2406FC20A48B960096A3D5 /* AppFor4STests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2406FB20A48B960096A3D5 /* AppFor4STests.swift */; };
-		8E24070720A48B960096A3D5 /* AppFor4SUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24070620A48B960096A3D5 /* AppFor4SUITests.swift */; };
+		8E7EA5D420A4CE7000D24103 /* Bebas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D120A4CC9800D24103 /* Bebas-Bold.ttf */; };
+		8E7EA5D520A4CE7400D24103 /* Bebas-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5CF20A4CC9800D24103 /* Bebas-Book.ttf */; };
+		8E7EA5D620A4CE7700D24103 /* Bebas-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D220A4CC9800D24103 /* Bebas-Light.ttf */; };
+		8E7EA5D720A4CE7A00D24103 /* Bebas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D020A4CC9800D24103 /* Bebas-Regular.ttf */; };
+		8E7EA5D820A4CE7D00D24103 /* Bebas-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D320A4CC9800D24103 /* Bebas-Thin.ttf */; };
+		8E7EA5DA20A4CFDF00D24103 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D920A4CFDF00D24103 /* Loadable.swift */; };
+		8E7EA5E120A4E19900D24103 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5DF20A4E19900D24103 /* Interface.storyboard */; };
+		8E7EA5E320A4E19900D24103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5E220A4E19900D24103 /* Assets.xcassets */; };
+		8E7EA5EA20A4E19900D24103 /* CryptoAW Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E7EA5E920A4E19900D24103 /* CryptoAW Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E7EA5EF20A4E19900D24103 /* BitcoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EA5EE20A4E19900D24103 /* BitcoinController.swift */; };
+		8E7EA5F120A4E19A00D24103 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EA5F020A4E19A00D24103 /* ExtensionDelegate.swift */; };
+		8E7EA5F320A4E19A00D24103 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EA5F220A4E19A00D24103 /* NotificationController.swift */; };
+		8E7EA5F520A4E19A00D24103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5F420A4E19A00D24103 /* Assets.xcassets */; };
+		8E7EA5FA20A4E19A00D24103 /* CryptoAW.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8E7EA5DD20A4E19900D24103 /* CryptoAW.app */; };
+		8E7EA60320A4E99800D24103 /* Bebas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D120A4CC9800D24103 /* Bebas-Bold.ttf */; };
+		8E7EA60420A4E99800D24103 /* Bebas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D120A4CC9800D24103 /* Bebas-Bold.ttf */; };
+		8E7EA60520A4E99B00D24103 /* Bebas-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5CF20A4CC9800D24103 /* Bebas-Book.ttf */; };
+		8E7EA60620A4E99B00D24103 /* Bebas-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5CF20A4CC9800D24103 /* Bebas-Book.ttf */; };
+		8E7EA60720A4E99E00D24103 /* Bebas-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D220A4CC9800D24103 /* Bebas-Light.ttf */; };
+		8E7EA60820A4E99F00D24103 /* Bebas-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D220A4CC9800D24103 /* Bebas-Light.ttf */; };
+		8E7EA60920A4E9A200D24103 /* Bebas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D020A4CC9800D24103 /* Bebas-Regular.ttf */; };
+		8E7EA60A20A4E9A300D24103 /* Bebas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D020A4CC9800D24103 /* Bebas-Regular.ttf */; };
+		8E7EA60B20A4E9A700D24103 /* Bebas-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D320A4CC9800D24103 /* Bebas-Thin.ttf */; };
+		8E7EA60C20A4E9A700D24103 /* Bebas-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D320A4CC9800D24103 /* Bebas-Thin.ttf */; };
+		8E7EA60E20A4EA8F00D24103 /* EthereumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EA60D20A4EA8F00D24103 /* EthereumController.swift */; };
+		8E7EA61020A4EAAD00D24103 /* BitcoinCashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EA60F20A4EAAD00D24103 /* BitcoinCashController.swift */; };
+		8E7EA61920A5ABBB00D24103 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7EA61820A5ABBB00D24103 /* NotificationCenter.framework */; };
+		8E7EA61C20A5ABBB00D24103 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7EA61B20A5ABBB00D24103 /* TodayViewController.swift */; };
+		8E7EA61F20A5ABBB00D24103 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA61D20A5ABBB00D24103 /* MainInterface.storyboard */; };
+		8E7EA62320A5ABBB00D24103 /* CryptoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E7EA61720A5ABBB00D24103 /* CryptoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E7EA62A20A5B04800D24103 /* Bebas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D120A4CC9800D24103 /* Bebas-Bold.ttf */; };
+		8E7EA62B20A5B04B00D24103 /* Bebas-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5CF20A4CC9800D24103 /* Bebas-Book.ttf */; };
+		8E7EA62C20A5B04F00D24103 /* Bebas-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D220A4CC9800D24103 /* Bebas-Light.ttf */; };
+		8E7EA62D20A5B05100D24103 /* Bebas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D020A4CC9800D24103 /* Bebas-Regular.ttf */; };
+		8E7EA62E20A5B05400D24103 /* Bebas-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7EA5D320A4CC9800D24103 /* Bebas-Thin.ttf */; };
+		8E87D8F620D10EB000E2482A /* AllCyptoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E87D8F520D10EB000E2482A /* AllCyptoList.swift */; };
+		ADF6535B94713F10EED983BC /* Pods_AppFor4S.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3708C3BF7A447739816EEC23 /* Pods_AppFor4S.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +68,72 @@
 			remoteGlobalIDString = 8E2406E220A48B940096A3D5;
 			remoteInfo = AppFor4S;
 		};
+		8E7EA5EB20A4E19900D24103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2406DB20A48B940096A3D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7EA5E820A4E19900D24103;
+			remoteInfo = "CryptoAW Extension";
+		};
+		8E7EA5F820A4E19A00D24103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2406DB20A48B940096A3D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7EA5DC20A4E19900D24103;
+			remoteInfo = CryptoAW;
+		};
+		8E7EA62120A5ABBB00D24103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2406DB20A48B940096A3D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7EA61620A5ABBB00D24103;
+			remoteInfo = CryptoWidget;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8E7EA60020A4E19A00D24103 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E7EA5EA20A4E19900D24103 /* CryptoAW Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7EA60220A4E19A00D24103 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8E7EA5FA20A4E19A00D24103 /* CryptoAW.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7EA62720A5ABBB00D24103 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E7EA62320A5ABBB00D24103 /* CryptoWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		040F4A7C80D55F3C2506F94D /* Pods-CryptoWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoWidget/Pods-CryptoWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		085869D9E6FF7538EC49D856 /* Pods-CryptoAW Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoAW Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoAW Extension/Pods-CryptoAW Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		3708C3BF7A447739816EEC23 /* Pods_AppFor4S.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppFor4S.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AB14C2DDE50B456D8D0EFC /* Pods-CryptoWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoWidget/Pods-CryptoWidget.release.xcconfig"; sourceTree = "<group>"; };
+		5B73952CFDD79C9D3DB8CEA4 /* Pods-AppFor4S.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFor4S.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppFor4S/Pods-AppFor4S.release.xcconfig"; sourceTree = "<group>"; };
+		6203B5D785CFFAD9D6B0A7FC /* libPods-CryptoAW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoAW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2406E320A48B940096A3D5 /* AppFor4S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFor4S.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2406E620A48B950096A3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E2406E820A48B950096A3D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,18 +142,51 @@
 		8E2406F020A48B960096A3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E2406F220A48B960096A3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E2406F720A48B960096A3D5 /* AppFor4STests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFor4STests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2406FB20A48B960096A3D5 /* AppFor4STests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFor4STests.swift; sourceTree = "<group>"; };
-		8E2406FD20A48B960096A3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E24070220A48B960096A3D5 /* AppFor4SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFor4SUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E24070620A48B960096A3D5 /* AppFor4SUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFor4SUITests.swift; sourceTree = "<group>"; };
-		8E24070820A48B960096A3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7EA5CF20A4CC9800D24103 /* Bebas-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bebas-Book.ttf"; sourceTree = "<group>"; };
+		8E7EA5D020A4CC9800D24103 /* Bebas-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bebas-Regular.ttf"; sourceTree = "<group>"; };
+		8E7EA5D120A4CC9800D24103 /* Bebas-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bebas-Bold.ttf"; sourceTree = "<group>"; };
+		8E7EA5D220A4CC9800D24103 /* Bebas-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bebas-Light.ttf"; sourceTree = "<group>"; };
+		8E7EA5D320A4CC9800D24103 /* Bebas-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bebas-Thin.ttf"; sourceTree = "<group>"; };
+		8E7EA5D920A4CFDF00D24103 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		8E7EA5DD20A4E19900D24103 /* CryptoAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7EA5E020A4E19900D24103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8E7EA5E220A4E19900D24103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7EA5E420A4E19900D24103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7EA5E920A4E19900D24103 /* CryptoAW Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CryptoAW Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7EA5EE20A4E19900D24103 /* BitcoinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinController.swift; sourceTree = "<group>"; };
+		8E7EA5F020A4E19A00D24103 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8E7EA5F220A4E19A00D24103 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8E7EA5F420A4E19A00D24103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7EA5F620A4E19A00D24103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7EA5F720A4E19A00D24103 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8E7EA60D20A4EA8F00D24103 /* EthereumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumController.swift; sourceTree = "<group>"; };
+		8E7EA60F20A4EAAD00D24103 /* BitcoinCashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinCashController.swift; sourceTree = "<group>"; };
+		8E7EA61720A5ABBB00D24103 /* CryptoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7EA61820A5ABBB00D24103 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8E7EA61B20A5ABBB00D24103 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8E7EA61E20A5ABBB00D24103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8E7EA62020A5ABBB00D24103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E87D8F520D10EB000E2482A /* AllCyptoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCyptoList.swift; sourceTree = "<group>"; };
+		96067DACF026D30D6867A9E1 /* Pods_CryptoWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8BC29FD6ABE2E25ADDD30 /* Pods_CryptoAW_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoAW_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5796ADD0BA859626A1A2B76 /* Pods-AppFor4S.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFor4S.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppFor4S/Pods-AppFor4S.debug.xcconfig"; sourceTree = "<group>"; };
+		EECF95532BF24D70155D5D4D /* Pods-CryptoAW Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoAW Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoAW Extension/Pods-CryptoAW Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65E5D44A228D71B799E848F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E2406E020A48B940096A3D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF6535B94713F10EED983BC /* Pods_AppFor4S.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,16 +204,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E7EA5E620A4E19900D24103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3273545D114AB1AEB61EB3 /* Pods_CryptoAW_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7EA61420A5ABBB00D24103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7EA61920A5ABBB00D24103 /* NotificationCenter.framework in Frameworks */,
+				66ECAB188AABF2F0A6C5BA8B /* Pods_CryptoWidget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5322CD4850337353F18F1618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5796ADD0BA859626A1A2B76 /* Pods-AppFor4S.debug.xcconfig */,
+				5B73952CFDD79C9D3DB8CEA4 /* Pods-AppFor4S.release.xcconfig */,
+				085869D9E6FF7538EC49D856 /* Pods-CryptoAW Extension.debug.xcconfig */,
+				EECF95532BF24D70155D5D4D /* Pods-CryptoAW Extension.release.xcconfig */,
+				040F4A7C80D55F3C2506F94D /* Pods-CryptoWidget.debug.xcconfig */,
+				41AB14C2DDE50B456D8D0EFC /* Pods-CryptoWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E2406DA20A48B940096A3D5 = {
 			isa = PBXGroup;
 			children = (
 				8E2406E520A48B940096A3D5 /* AppFor4S */,
-				8E2406FA20A48B960096A3D5 /* AppFor4STests */,
-				8E24070520A48B960096A3D5 /* AppFor4SUITests */,
+				8E7EA5DE20A4E19900D24103 /* CryptoAW */,
+				8E7EA5ED20A4E19900D24103 /* CryptoAW Extension */,
+				8E7EA61A20A5ABBB00D24103 /* CryptoWidget */,
 				8E2406E420A48B940096A3D5 /* Products */,
+				5322CD4850337353F18F1618 /* Pods */,
+				CD6C7694E25908D058A8A747 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +256,9 @@
 				8E2406E320A48B940096A3D5 /* AppFor4S.app */,
 				8E2406F720A48B960096A3D5 /* AppFor4STests.xctest */,
 				8E24070220A48B960096A3D5 /* AppFor4SUITests.xctest */,
+				8E7EA5DD20A4E19900D24103 /* CryptoAW.app */,
+				8E7EA5E920A4E19900D24103 /* CryptoAW Extension.appex */,
+				8E7EA61720A5ABBB00D24103 /* CryptoWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,30 +268,74 @@
 			children = (
 				8E2406E620A48B950096A3D5 /* AppDelegate.swift */,
 				8E2406E820A48B950096A3D5 /* ViewController.swift */,
+				8E87D8F520D10EB000E2482A /* AllCyptoList.swift */,
+				8E7EA5D920A4CFDF00D24103 /* Loadable.swift */,
 				8E2406EA20A48B950096A3D5 /* Main.storyboard */,
 				8E2406ED20A48B960096A3D5 /* Assets.xcassets */,
 				8E2406EF20A48B960096A3D5 /* LaunchScreen.storyboard */,
 				8E2406F220A48B960096A3D5 /* Info.plist */,
+				8E7EA5CE20A4CC8700D24103 /* Fonts */,
 			);
 			path = AppFor4S;
 			sourceTree = "<group>";
 		};
-		8E2406FA20A48B960096A3D5 /* AppFor4STests */ = {
+		8E7EA5CE20A4CC8700D24103 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				8E2406FB20A48B960096A3D5 /* AppFor4STests.swift */,
-				8E2406FD20A48B960096A3D5 /* Info.plist */,
+				8E7EA5D120A4CC9800D24103 /* Bebas-Bold.ttf */,
+				8E7EA5CF20A4CC9800D24103 /* Bebas-Book.ttf */,
+				8E7EA5D220A4CC9800D24103 /* Bebas-Light.ttf */,
+				8E7EA5D020A4CC9800D24103 /* Bebas-Regular.ttf */,
+				8E7EA5D320A4CC9800D24103 /* Bebas-Thin.ttf */,
 			);
-			path = AppFor4STests;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
-		8E24070520A48B960096A3D5 /* AppFor4SUITests */ = {
+		8E7EA5DE20A4E19900D24103 /* CryptoAW */ = {
 			isa = PBXGroup;
 			children = (
-				8E24070620A48B960096A3D5 /* AppFor4SUITests.swift */,
-				8E24070820A48B960096A3D5 /* Info.plist */,
+				8E7EA5DF20A4E19900D24103 /* Interface.storyboard */,
+				8E7EA5E220A4E19900D24103 /* Assets.xcassets */,
+				8E7EA5E420A4E19900D24103 /* Info.plist */,
 			);
-			path = AppFor4SUITests;
+			path = CryptoAW;
+			sourceTree = "<group>";
+		};
+		8E7EA5ED20A4E19900D24103 /* CryptoAW Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E7EA5EE20A4E19900D24103 /* BitcoinController.swift */,
+				8E7EA60D20A4EA8F00D24103 /* EthereumController.swift */,
+				8E7EA60F20A4EAAD00D24103 /* BitcoinCashController.swift */,
+				8E7EA5F020A4E19A00D24103 /* ExtensionDelegate.swift */,
+				8E7EA5F220A4E19A00D24103 /* NotificationController.swift */,
+				8E7EA5F420A4E19A00D24103 /* Assets.xcassets */,
+				8E7EA5F620A4E19A00D24103 /* Info.plist */,
+				8E7EA5F720A4E19A00D24103 /* PushNotificationPayload.apns */,
+			);
+			path = "CryptoAW Extension";
+			sourceTree = "<group>";
+		};
+		8E7EA61A20A5ABBB00D24103 /* CryptoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8E7EA61B20A5ABBB00D24103 /* TodayViewController.swift */,
+				8E7EA61D20A5ABBB00D24103 /* MainInterface.storyboard */,
+				8E7EA62020A5ABBB00D24103 /* Info.plist */,
+			);
+			path = CryptoWidget;
+			sourceTree = "<group>";
+		};
+		CD6C7694E25908D058A8A747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3708C3BF7A447739816EEC23 /* Pods_AppFor4S.framework */,
+				6203B5D785CFFAD9D6B0A7FC /* libPods-CryptoAW.a */,
+				DBC8BC29FD6ABE2E25ADDD30 /* Pods_CryptoAW_Extension.framework */,
+				8E7EA61820A5ABBB00D24103 /* NotificationCenter.framework */,
+				96067DACF026D30D6867A9E1 /* Pods_CryptoWidget.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,13 +345,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E24070B20A48B960096A3D5 /* Build configuration list for PBXNativeTarget "AppFor4S" */;
 			buildPhases = (
+				373462F4F43C44A41E2C1777 /* [CP] Check Pods Manifest.lock */,
 				8E2406DF20A48B940096A3D5 /* Sources */,
 				8E2406E020A48B940096A3D5 /* Frameworks */,
 				8E2406E120A48B940096A3D5 /* Resources */,
+				FE5C142277C02620D7C4AAEF /* [CP] Embed Pods Frameworks */,
+				8E7EA60220A4E19A00D24103 /* Embed Watch Content */,
+				8E7EA62720A5ABBB00D24103 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8E7EA5F920A4E19A00D24103 /* PBXTargetDependency */,
+				8E7EA62220A5ABBB00D24103 /* PBXTargetDependency */,
 			);
 			name = AppFor4S;
 			productName = AppFor4S;
@@ -181,6 +400,61 @@
 			productReference = 8E24070220A48B960096A3D5 /* AppFor4SUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8E7EA5DC20A4E19900D24103 /* CryptoAW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7EA60120A4E19A00D24103 /* Build configuration list for PBXNativeTarget "CryptoAW" */;
+			buildPhases = (
+				8E7EA5DB20A4E19900D24103 /* Resources */,
+				8E7EA60020A4E19A00D24103 /* Embed App Extensions */,
+				65E5D44A228D71B799E848F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7EA5EC20A4E19900D24103 /* PBXTargetDependency */,
+			);
+			name = CryptoAW;
+			productName = CryptoAW;
+			productReference = 8E7EA5DD20A4E19900D24103 /* CryptoAW.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8E7EA5E820A4E19900D24103 /* CryptoAW Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7EA5FF20A4E19A00D24103 /* Build configuration list for PBXNativeTarget "CryptoAW Extension" */;
+			buildPhases = (
+				8C1862D9404379AE04B96D28 /* [CP] Check Pods Manifest.lock */,
+				8E7EA5E520A4E19900D24103 /* Sources */,
+				8E7EA5E620A4E19900D24103 /* Frameworks */,
+				8E7EA5E720A4E19900D24103 /* Resources */,
+				BDE5C47F30430886371F04D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoAW Extension";
+			productName = "CryptoAW Extension";
+			productReference = 8E7EA5E920A4E19900D24103 /* CryptoAW Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8E7EA61620A5ABBB00D24103 /* CryptoWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7EA62420A5ABBB00D24103 /* Build configuration list for PBXNativeTarget "CryptoWidget" */;
+			buildPhases = (
+				2967DFDC55E9624CEEB38460 /* [CP] Check Pods Manifest.lock */,
+				8E7EA61320A5ABBB00D24103 /* Sources */,
+				8E7EA61420A5ABBB00D24103 /* Frameworks */,
+				8E7EA61520A5ABBB00D24103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoWidget;
+			productName = CryptoWidget;
+			productReference = 8E7EA61720A5ABBB00D24103 /* CryptoWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +467,24 @@
 				TargetAttributes = {
 					8E2406E220A48B940096A3D5 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					8E2406F620A48B960096A3D5 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 8E2406E220A48B940096A3D5;
 					};
 					8E24070120A48B960096A3D5 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 8E2406E220A48B940096A3D5;
+					};
+					8E7EA5DC20A4E19900D24103 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8E7EA5E820A4E19900D24103 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
+					};
+					8E7EA61620A5ABBB00D24103 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -220,6 +504,9 @@
 				8E2406E220A48B940096A3D5 /* AppFor4S */,
 				8E2406F620A48B960096A3D5 /* AppFor4STests */,
 				8E24070120A48B960096A3D5 /* AppFor4SUITests */,
+				8E7EA5DC20A4E19900D24103 /* CryptoAW */,
+				8E7EA5E820A4E19900D24103 /* CryptoAW Extension */,
+				8E7EA61620A5ABBB00D24103 /* CryptoWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -230,8 +517,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2406F120A48B960096A3D5 /* LaunchScreen.storyboard in Resources */,
+				8E7EA5D720A4CE7A00D24103 /* Bebas-Regular.ttf in Resources */,
+				8E7EA5D620A4CE7700D24103 /* Bebas-Light.ttf in Resources */,
+				8E7EA5D420A4CE7000D24103 /* Bebas-Bold.ttf in Resources */,
 				8E2406EE20A48B960096A3D5 /* Assets.xcassets in Resources */,
+				8E7EA5D520A4CE7400D24103 /* Bebas-Book.ttf in Resources */,
 				8E2406EC20A48B950096A3D5 /* Main.storyboard in Resources */,
+				8E7EA5D820A4CE7D00D24103 /* Bebas-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +541,146 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E7EA5DB20A4E19900D24103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7EA5E320A4E19900D24103 /* Assets.xcassets in Resources */,
+				8E7EA60320A4E99800D24103 /* Bebas-Bold.ttf in Resources */,
+				8E7EA5E120A4E19900D24103 /* Interface.storyboard in Resources */,
+				8E7EA60520A4E99B00D24103 /* Bebas-Book.ttf in Resources */,
+				8E7EA60720A4E99E00D24103 /* Bebas-Light.ttf in Resources */,
+				8E7EA60920A4E9A200D24103 /* Bebas-Regular.ttf in Resources */,
+				8E7EA60B20A4E9A700D24103 /* Bebas-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7EA5E720A4E19900D24103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7EA60620A4E99B00D24103 /* Bebas-Book.ttf in Resources */,
+				8E7EA60820A4E99F00D24103 /* Bebas-Light.ttf in Resources */,
+				8E7EA5F520A4E19A00D24103 /* Assets.xcassets in Resources */,
+				8E7EA60C20A4E9A700D24103 /* Bebas-Thin.ttf in Resources */,
+				8E7EA60A20A4E9A300D24103 /* Bebas-Regular.ttf in Resources */,
+				8E7EA60420A4E99800D24103 /* Bebas-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7EA61520A5ABBB00D24103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7EA62B20A5B04B00D24103 /* Bebas-Book.ttf in Resources */,
+				8E7EA62C20A5B04F00D24103 /* Bebas-Light.ttf in Resources */,
+				8E7EA61F20A5ABBB00D24103 /* MainInterface.storyboard in Resources */,
+				8E7EA62E20A5B05400D24103 /* Bebas-Thin.ttf in Resources */,
+				8E7EA62D20A5B05100D24103 /* Bebas-Regular.ttf in Resources */,
+				8E7EA62A20A5B04800D24103 /* Bebas-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2967DFDC55E9624CEEB38460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoWidget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		373462F4F43C44A41E2C1777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppFor4S-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1862D9404379AE04B96D28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoAW Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE5C47F30430886371F04D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoAW Extension/Pods-CryptoAW Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-watchOS/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoAW Extension/Pods-CryptoAW Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5C142277C02620D7C4AAEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppFor4S/Pods-AppFor4S-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppFor4S/Pods-AppFor4S-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E2406DF20A48B940096A3D5 /* Sources */ = {
@@ -257,7 +688,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2406E920A48B950096A3D5 /* ViewController.swift in Sources */,
+				8E87D8F620D10EB000E2482A /* AllCyptoList.swift in Sources */,
 				8E2406E720A48B950096A3D5 /* AppDelegate.swift in Sources */,
+				8E7EA5DA20A4CFDF00D24103 /* Loadable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +698,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2406FC20A48B960096A3D5 /* AppFor4STests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +705,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E24070720A48B960096A3D5 /* AppFor4SUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7EA5E520A4E19900D24103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7EA5F320A4E19A00D24103 /* NotificationController.swift in Sources */,
+				8E7EA61020A4EAAD00D24103 /* BitcoinCashController.swift in Sources */,
+				8E7EA5F120A4E19A00D24103 /* ExtensionDelegate.swift in Sources */,
+				8E7EA60E20A4EA8F00D24103 /* EthereumController.swift in Sources */,
+				8E7EA5EF20A4E19900D24103 /* BitcoinController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7EA61320A5ABBB00D24103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7EA61C20A5ABBB00D24103 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +740,21 @@
 			isa = PBXTargetDependency;
 			target = 8E2406E220A48B940096A3D5 /* AppFor4S */;
 			targetProxy = 8E24070320A48B960096A3D5 /* PBXContainerItemProxy */;
+		};
+		8E7EA5EC20A4E19900D24103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7EA5E820A4E19900D24103 /* CryptoAW Extension */;
+			targetProxy = 8E7EA5EB20A4E19900D24103 /* PBXContainerItemProxy */;
+		};
+		8E7EA5F920A4E19A00D24103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7EA5DC20A4E19900D24103 /* CryptoAW */;
+			targetProxy = 8E7EA5F820A4E19A00D24103 /* PBXContainerItemProxy */;
+		};
+		8E7EA62220A5ABBB00D24103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7EA61620A5ABBB00D24103 /* CryptoWidget */;
+			targetProxy = 8E7EA62120A5ABBB00D24103 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +773,22 @@
 				8E2406F020A48B960096A3D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8E7EA5DF20A4E19900D24103 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7EA5E020A4E19900D24103 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		8E7EA61D20A5ABBB00D24103 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7EA61E20A5ABBB00D24103 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,36 +910,42 @@
 		};
 		8E24070C20A48B960096A3D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5796ADD0BA859626A1A2B76 /* Pods-AppFor4S.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86R6TV7GW4;
 				INFOPLIST_FILE = AppFor4S/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		8E24070D20A48B960096A3D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B73952CFDD79C9D3DB8CEA4 /* Pods-AppFor4S.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86R6TV7GW4;
 				INFOPLIST_FILE = AppFor4S/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -466,7 +954,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86R6TV7GW4;
 				INFOPLIST_FILE = AppFor4STests/Info.plist;
@@ -479,7 +966,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppFor4S.app/AppFor4S";
 			};
 			name = Debug;
 		};
@@ -487,7 +973,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86R6TV7GW4;
 				INFOPLIST_FILE = AppFor4STests/Info.plist;
@@ -500,7 +985,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppFor4S.app/AppFor4S";
 			};
 			name = Release;
 		};
@@ -518,9 +1002,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4SUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AppFor4S;
 			};
 			name = Debug;
 		};
@@ -538,9 +1022,137 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4SUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AppFor4S;
+			};
+			name = Release;
+		};
+		8E7EA5FB20A4E19A00D24103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
+				IBSC_MODULE = CryptoAW_Extension;
+				INFOPLIST_FILE = CryptoAW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		8E7EA5FC20A4E19A00D24103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
+				IBSC_MODULE = CryptoAW_Extension;
+				INFOPLIST_FILE = CryptoAW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		8E7EA5FD20A4E19A00D24103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085869D9E6FF7538EC49D856 /* Pods-CryptoAW Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
+				INFOPLIST_FILE = "CryptoAW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		8E7EA5FE20A4E19A00D24103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECF95532BF24D70155D5D4D /* Pods-CryptoAW Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
+				INFOPLIST_FILE = "CryptoAW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		8E7EA62520A5ABBB00D24103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040F4A7C80D55F3C2506F94D /* Pods-CryptoWidget.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
+				INFOPLIST_FILE = CryptoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S.CryptoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E7EA62620A5ABBB00D24103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41AB14C2DDE50B456D8D0EFC /* Pods-CryptoWidget.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
+				INFOPLIST_FILE = CryptoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsociety1.AppFor4S.CryptoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -579,6 +1191,33 @@
 			buildConfigurations = (
 				8E24071220A48B960096A3D5 /* Debug */,
 				8E24071320A48B960096A3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7EA5FF20A4E19A00D24103 /* Build configuration list for PBXNativeTarget "CryptoAW Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7EA5FD20A4E19A00D24103 /* Debug */,
+				8E7EA5FE20A4E19A00D24103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7EA60120A4E19A00D24103 /* Build configuration list for PBXNativeTarget "CryptoAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7EA5FB20A4E19A00D24103 /* Debug */,
+				8E7EA5FC20A4E19A00D24103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7EA62420A5ABBB00D24103 /* Build configuration list for PBXNativeTarget "CryptoWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7EA62520A5ABBB00D24103 /* Debug */,
+				8E7EA62620A5ABBB00D24103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

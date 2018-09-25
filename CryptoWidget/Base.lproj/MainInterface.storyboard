@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bebas-Regular.ttf">
+            <string>BebasRegular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="CryptoWidget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="176"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BITCOIN Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ie-kb-9wo">
+                                <rect key="frame" x="16" y="20" width="148" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MUZ-x4-4xf"/>
+                                    <constraint firstAttribute="width" constant="148" id="lp4-fe-JMv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BebasRegular" family="Bebas" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethereum Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnN-uW-deJ">
+                                <rect key="frame" x="16" y="68" width="178" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="178" id="QiD-YI-LJb"/>
+                                    <constraint firstAttribute="height" constant="40" id="kSh-kr-i3h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BebasRegular" family="Bebas" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Rbu-e0-2az">
+                                <rect key="frame" x="226" y="68" width="78" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="eOd-0Z-hrp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BebasRegular" family="Bebas" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vPI-us-hZ9">
+                                <rect key="frame" x="226" y="116" width="78" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CXU-uh-dRM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BebasRegular" family="Bebas" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin Cash Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fg7-j9-d7s">
+                                <rect key="frame" x="16" y="116" width="208" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="208" id="Fac-Vh-8Od"/>
+                                    <constraint firstAttribute="height" constant="40" id="xhU-7C-zM1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BebasRegular" family="Bebas" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4uD-Tg-G1d">
+                                <rect key="frame" x="226" y="20" width="78" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="I5h-wZ-Wsc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BebasRegular" family="Bebas" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="vPI-us-hZ9" firstAttribute="leading" secondItem="Fg7-j9-d7s" secondAttribute="trailing" constant="2" id="1q5-0D-bwQ"/>
+                            <constraint firstItem="Rbu-e0-2az" firstAttribute="leading" secondItem="nnN-uW-deJ" secondAttribute="trailing" constant="32" id="IIg-KD-RL9"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="4uD-Tg-G1d" secondAttribute="trailing" constant="16" id="L51-sO-vyL"/>
+                            <constraint firstItem="Rbu-e0-2az" firstAttribute="top" secondItem="4uD-Tg-G1d" secondAttribute="bottom" constant="8" id="LTM-lW-PKd"/>
+                            <constraint firstItem="vPI-us-hZ9" firstAttribute="top" secondItem="Rbu-e0-2az" secondAttribute="bottom" constant="8" id="SLv-ZI-n8c"/>
+                            <constraint firstItem="nnN-uW-deJ" firstAttribute="top" secondItem="7ie-kb-9wo" secondAttribute="bottom" constant="8" id="UlP-ur-5a2"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="Rbu-e0-2az" secondAttribute="trailing" constant="16" id="bgg-Qh-1Ud"/>
+                            <constraint firstItem="4uD-Tg-G1d" firstAttribute="leading" secondItem="7ie-kb-9wo" secondAttribute="trailing" constant="62" id="dqX-ts-eaf"/>
+                            <constraint firstItem="Fg7-j9-d7s" firstAttribute="top" secondItem="nnN-uW-deJ" secondAttribute="bottom" constant="8" id="fT5-BP-Kqr"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="vPI-us-hZ9" secondAttribute="trailing" constant="16" id="hjS-8D-U0T"/>
+                            <constraint firstItem="7ie-kb-9wo" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="lBi-aq-klW"/>
+                            <constraint firstItem="nnN-uW-deJ" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="t0i-pq-D1m"/>
+                            <constraint firstItem="4uD-Tg-G1d" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="20" id="xWJ-VB-WTt"/>
+                            <constraint firstItem="Fg7-j9-d7s" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="xnl-uc-eTz"/>
+                            <constraint firstItem="7ie-kb-9wo" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="20" id="xqN-Qx-W2N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="176"/>
+                    <connections>
+                        <outlet property="bitcoinCashPrice" destination="vPI-us-hZ9" id="qFc-Dr-la9"/>
+                        <outlet property="bitcoinPrice" destination="4uD-Tg-G1d" id="ITC-a7-XNJ"/>
+                        <outlet property="etheriumPrice" destination="Rbu-e0-2az" id="tS8-cs-E5r"/>
+                        <outlet property="mainView" destination="S3S-Oj-5AN" id="Nbl-VW-427"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32" y="33.283358320839582"/>
+        </scene>
+    </scenes>
+</document>
